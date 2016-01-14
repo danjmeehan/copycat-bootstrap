@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html>
 
   <head>
@@ -28,7 +28,7 @@
             <img src="assets/images/logo.png" alt="Twitter icon">
           </div>
           
-          <div class="text secondary-text hidden-xs hidden-sm">
+          <div class="text secondary-text hidden-xs">
             Copycat Bootstrap
           </div>
           <nav>
@@ -38,25 +38,32 @@
       </div> 
     </header>
 
-    <main>
-      <div class="col-quarter profile">
-        <div class="image border">
-          <img src="assets/images/person.png" alt="Profile picture">
-        </div>
+<main class="container-fluid">
+    <div class="row">
+      
+      <div class="col-xs-6 col-md-3 profile">
+            <div class="image border">
+              <img src="assets/images/person.png" alt="Profile picture">
+            </div>
 
-        <div class="bio border">
-          <h1>Jane Doe</h1>
-          <h3>Mars, Milky Way</h3>
-          <p>I like long spacewalks.</p>
+            <div class="bio border">
+              <h1>Jane Doe</h1>
+              <h3>Mars, Milky Way</h3>
+              <p>I like long spacewalks.</p>
 
-          <div class="joined">
-            Joined in 1024
-          </div>
-        
-        </div>
+              <div class="joined hidden-xs">
+                Joined in 1024
+              </div>
+            
+            </div>
       </div>
 
-      <div class="col-half content">
+    </div>
+
+    <div class="row">  
+
+      <div class="col-xs-12 col-md-6 content">
+
         <div class="stats border">
           <div class="col-half following">
             <span class="primary-text">242</span> Following
@@ -74,7 +81,7 @@
               <strong>@johndoe</strong>
             </div>
 
-            <div class="actions col-quarter">
+            <div class="actions col-quarter hidden-xs">
               <a href="" class="btn primary-background secondary-text">Retweet</a>
             </div>
           </div>
@@ -85,7 +92,7 @@
               <strong>@johndoe</strong>
             </div>
 
-            <div class="actions col-quarter">
+            <div class="actions col-quarter hidden-xs">
               <a href="" class="btn primary-background secondary-text">Retweet</a>
             </div>
           </div>
@@ -96,7 +103,7 @@
               <strong>@johndoe</strong>
             </div>
 
-            <div class="actions col-quarter">
+            <div class="actions col-quarter hidden-xs">
               <a href="" class="btn primary-background secondary-text">Retweet</a>
             </div>
           </div>
@@ -107,36 +114,46 @@
               <strong>@johndoe</strong>
             </div>
 
-            <div class="actions col-quarter">
+            <div class="actions col-quarter hidden-xs">
               <a href="" class="btn primary-background secondary-text">Retweet</a>
             </div>
           </div>
         </div>
 
       </div>
+    </div>
 
-      <div class="col-quarter suggestions">
-        <div class="list border">
+        <div class="row">
 
-          <h2>Who To Follow</h2>
-          
-          <div class="user">
-            <img src="assets/images/person.png" width="50">
-            <strong>Jane Doe</strong>
+          <div class="col-xs-12 col-md-3 suggestions">
+            <div class="list border">
+
+                  <h2>Who To Follow</h2>
+                  
+              <div class="container-fluid">
+                <div class="row">    
+
+                  <div class="col-xs-4 col-md-12 user">
+                    <img src="assets/images/person.png" width="50">
+                    <strong>Jane Doe</strong>
+                  </div>
+              
+                  <div class="col-xs-4 col-md-12 user">
+                    <img src="assets/images/person.png" width="50">
+                    <strong>John Smith</strong>
+                  </div>   
+
+                  <div class="col-xs-4 col-md-12 user">
+                    <img src="assets/images/person.png" width="50">
+                    <strong>William White</strong>
+                  </div>
+
+                </div>
+              </div>  
+
+            </div>
           </div>
 
-          <div class="user">
-            <img src="assets/images/person.png" width="50">
-            <strong>John Smith</strong>
-          </div>
-
-          <div class="user">
-            <img src="assets/images/person.png" width="50">
-            <strong>William White</strong>
-          </div>
-
-        </div>
-      </div>
     </main>
 
     <footer class="container-fluid primary-background">
