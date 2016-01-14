@@ -87,12 +87,13 @@ div[class*="col-"]{
   text-align:center;
 }
 .profile .image img{
-/*  max-width: 50%; */
+  max-width: 50%; 
   vertical-align:middle;
 }
 .profile .bio{
   margin-top:25px;
   padding:0 25px 15px 25px;
+  margin-bottom: 25px
 }
 .profile .bio .joined{
   border-top:1px solid #ccc;
@@ -103,6 +104,7 @@ div[class*="col-"]{
 
 .content{
 /*  padding:25px;*/
+margin-bottom: 25px;
 }
 .content .stats{
   padding:20px;
@@ -134,7 +136,7 @@ div[class*="col-"]{
 /* SUGGESTIONS */
 
 .suggestions{
-  padding:25px 0 0 0;
+  padding:0 15px;
 }
 .suggestions .list{
   padding:0 25px 25px 25px;
