@@ -35,12 +35,13 @@ body{
 .border{
   border:2px solid #ccc;
 }
-
+.margin-top{
+  margin-top: 25px;
+}
 /* HEADER */
 
 header{
-  padding:10px 75px;
-  overflow:auto;
+  padding:10px 0;
   height:75px;
   line-height:75px;
   box-sizing:content-box;
@@ -63,7 +64,6 @@ header nav{
 /* MAIN */
 
 main{
-  overflow:auto;
   padding:40px 75px;
 }
 div[class*="col-"]{
@@ -83,15 +83,13 @@ div[class*="col-"]{
 /* PROFILE */
 
 .profile{
-/*  padding:25px 25px 25px 0;*/
   text-align:center;
 }
 .profile .image img{
-  max-width: 50%; 
+  max-width: 100%; 
   vertical-align:middle;
 }
 .profile .bio{
-  margin-top:25px;
   padding:0 25px 15px 25px;
   margin-bottom: 25px
 }
@@ -103,7 +101,6 @@ div[class*="col-"]{
 /* CONTENT */
 
 .content{
-/*  padding:25px;*/
 margin-bottom: 25px;
 }
 .content .stats{
@@ -135,9 +132,6 @@ margin-bottom: 25px;
 
 /* SUGGESTIONS */
 
-.suggestions{
-  padding:0 15px;
-}
 .suggestions .list{
   padding:0 25px 25px 25px;
   text-align:center;
@@ -171,4 +165,15 @@ footer nav li a{
 }
 footer nav li a:hover{
   opacity:0.8;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 768px) {
+  .margin-top{
+    margin-top:0;
+  }
+  .tweets .tweet .btn{
+    display: none;
+  }
 }
